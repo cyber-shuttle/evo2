@@ -1,0 +1,33 @@
+project:
+  name: "evo2_example"
+  description: "evo2 example"
+  homepage: https://github.com/cyber-shuttle/evo2
+  authors:
+    - pjaya001@odu.edu
+  tags:
+    - Evo2
+
+workspace:
+  resources:
+    min_cpu: 4
+    min_mem: 4096
+    min_gpu: 1
+    gpu_mem: 1024
+  model_collection: []
+  data_collection: []
+
+additional_dependencies:
+  modules: []
+  conda:
+    - python=3.11
+    - pip
+    - numpy
+    - matplotlib
+    - pandas
+    - seaborn
+    - scikit-learn
+    - tqdm
+    - rich
+    - openpyxl
+  pip:
+    - git+https://github.com/cyber-shuttle/evo2.git
