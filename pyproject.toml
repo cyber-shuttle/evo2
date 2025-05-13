@@ -15,7 +15,11 @@ requires-python = ">=3.11"
 dependencies = [
     "biopython",
     "huggingface_hub",
-    "vtx"
+    "vtx",
+    "numpy",
+    "torch",
+    "tqdm",
+    "pyyaml"
 ]
 classifiers = [
     "Programming Language :: Python :: 3",
