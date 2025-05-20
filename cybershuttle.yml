@@ -23,6 +23,7 @@ additional_dependencies:
     - pip
     - cuda-nvcc
     - numpy
+    - pytorch
     - matplotlib
     - pandas
     - seaborn
@@ -30,5 +31,8 @@ additional_dependencies:
     - tqdm
     - rich
     - openpyxl
+    - biopython
+    - huggingface_hub
+    - pyyaml
   pip:
     - git+https://github.com/cyber-shuttle/evo2.git
