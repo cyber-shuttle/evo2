@@ -10,7 +10,7 @@ project:
 workspace:
   resources:
     min_cpu: 4
-    min_mem: 4096
+    min_mem: 40000
     min_gpu: 1
     gpu_mem: 1024
   model_collection: []
@@ -34,5 +34,4 @@ additional_dependencies:
     - biopython
     - huggingface_hub
     - pyyaml
-  pip:
-    - git+https://github.com/cyber-shuttle/evo2.git
+  pip: []
