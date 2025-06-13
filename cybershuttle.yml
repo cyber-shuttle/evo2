@@ -34,4 +34,6 @@ additional_dependencies:
     - biopython
     - huggingface_hub
     - pyyaml
+    - gcc_linux-64
+    - ninja
   pip: []
